@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #FF0000, #0000FF); /* Red to blue gradient */
+    background-size: cover; /* Ensure the gradient covers the entire background */
+    margin: 0;
+    padding: 0;
+}
+
+/* ... Other CSS rules ... */
+
+.info-container {
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity black background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #fcfcfc;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Change flex-direction to stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px;
+}
+
+.center-content {
+    text-align: center; /* Center text horizontally */
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px; /* Add some spacing between headings and content */
+}

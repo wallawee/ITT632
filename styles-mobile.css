@@ -1,0 +1,67 @@
+/* Common styles for both desktop and mobile views */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #FF0000, #0000FF);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container with 50% opacity black background */
+.info-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #fcfcfc;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsive styles for mobile view */
+@media screen and (max-width: 768px) {
+    body {
+        /* Modify mobile background, text color, or other properties for mobile view */
+        background: linear-gradient(to bottom, #FF0000, #0000FF);
+    }
+
+    .info-container {
+        /* Adjust the background opacity or other styles for mobile view */
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+        /* Adjust font size or other styles for mobile view */
+        font-size: 24px;
+    }
+    
+    /* Add additional mobile-specific styles here */
+}
